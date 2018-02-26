@@ -1,0 +1,23 @@
+<style>
+h1 {
+    text-align: center;
+    background-color: #6c6ccc;
+     padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    color:white;
+    border: 5px solid #b6b6e5;
+}
+p {
+        color:#6c6ccc;
+        text-align:center;
+        border: 5px solid #b6b6e5;
+     padding-right: 30px;
+     padding-left: 30px;
+    }
+</style>
+<head>
+<h1> Language Learning Spaces </h1>
+<img src="langcenter.jpg" alt="language center">
+</head>
