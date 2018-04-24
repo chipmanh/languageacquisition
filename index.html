@@ -33,6 +33,25 @@ p {
         color:#6c6ccc;
         text-align:center;
     }
+    .row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    -ms-flex: 33%; /* IE 10 */
+    flex: 33%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
 </style>
 <body>
 <h1>languageacquisition</h1>
@@ -58,4 +77,27 @@ p {
     <a href="https://chipmanh.github.io/languageacquisition/classobserv.html">
 <button type="button"> class observations </button>
     </a>
+div class="row"> 
+  <div class="column">
+    <img src="games.jpg">
+    <img src="computer.jpeg">
+    <img src="palmer.jpg">
+    <img src="rhodeslogo.png">
+    <img src="langclass.jpg">
+  </div>
+  <div class="column">
+      <img src="games.jpg">
+    <img src="computer.jpeg">
+    <img src="palmer.jpg">
+    <img src="rhodeslogo.png">
+    <img src="langclass.jpg">
+  </div> 
+  <div class="column">
+      <img src="games.jpg">
+    <img src="computer.jpeg">
+    <img src="palmer.jpg">
+    <img src="rhodeslogo.png">
+    <img src="langclass.jpg">
+  </div>
+</div>
 </body>
