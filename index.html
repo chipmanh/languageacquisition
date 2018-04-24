@@ -33,13 +33,18 @@ p {
         color:#6c6ccc;
         text-align:center;
     }
-.masonry {
-  column-count: 3;
-  column-gap: 5px;
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
 }
-img {
-  break-inside: avoid;
-  width: 100%;
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
 }
 </style>
 <body>
@@ -66,11 +71,16 @@ img {
     <a href="https://chipmanh.github.io/languageacquisition/classobserv.html">
 <button type="button"> class observations </button>
     </a>
-<div class="masonry"> 
-    <img src="computer.jpeg" alt>
-    <img src="games.jpg" alt>
-    <img src="palmer.jpg" alt>
-    <img src="rhodeslogo.png" alt>
-    <img src="langclass.jpg" alt>
-</div>
+<table>
+     <tr>
+    <th><img src="computer.jpeg" alt></th>
+    <th><img src="games.jpg" alt></th>
+    <th><img src="palmer.jpg" alt></th>
+  </tr>
+    <tr>
+    <td><img src="rhodeslogo.png" alt></td>
+    <td><img src="langclass.jpg" alt></td>
+    <td><img src="languages.jpg" alt></td>
+  </tr>
+  
 </body>
